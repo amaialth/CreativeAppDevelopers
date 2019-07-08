@@ -518,19 +518,19 @@ html[xmlns] .slides {display: block;}
 
 /* Responsive Styles */
 @media (min-width: 992px) and (max-width: 1199px) {
-	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:-485px;}
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:70px; line-height:70px;}
+	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1, .top_slider .slide4 .flex_caption1 {margin-left:-485px;}
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3, .top_slider .slide4 .flex_caption1 .title1, .top_slider .slide4 .flex_caption1 .title2, .top_slider .slide4 .flex_caption1 .title3 {font-size:70px; line-height:70px;}
 	.top_slider .slide_btn {margin-left:314px;}
 	
 	
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:-375px;}
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:60px; line-height:60px;}
+	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1, .top_slider .slide4 .flex_caption1 {margin-left:-375px;}
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3, .top_slider .slide4 .flex_caption1 .title1, .top_slider .slide4 .flex_caption1 .title2, .top_slider .slide4 .flex_caption1 .title3 {font-size:60px; line-height:60px;}
 	.top_slider .slide_btn {margin-left:204px;}
 	
-	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {font-size:17px; line-height:24px; width:450px;}
+	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4, .top_slider .slide4 .flex_caption1 .title4 {font-size:17px; line-height:24px; width:450px;}
 	
 	
 }
@@ -539,10 +539,10 @@ html[xmlns] .slides {display: block;}
 	.flexslider.top_slider:before {height:40px;}
 	
 	
-	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:0; left:15px;}
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:40px; line-height:40px;}
+	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1, .top_slider .slide4 .flex_caption1 {margin-left:0; left:15px;}
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3, .top_slider .slide4 .flex_caption1 .title1, .top_slider .slide4 .flex_caption1 .title2, .top_slider .slide4 .flex_caption1 .title3 {font-size:40px; line-height:40px;}
 	
-	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {font-size:13px; line-height:19px; width:420px;}
+	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4, .top_slider .slide4 .flex_caption1 .title4 {font-size:13px; line-height:19px; width:420px;}
 	
 	
 	#carousel .slides li {width:70px !important; height:55px !important; margin:0 0 0 2px !important;}
@@ -560,9 +560,9 @@ html[xmlns] .slides {display: block;}
 }
 
 @media (max-width: 479px) {
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:26px; line-height:26px;}
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3, .top_slider .slide4 .flex_caption1 .title1, .top_slider .slide4 .flex_caption1 .title2, .top_slider .slide4 .flex_caption1 .title3 {font-size:26px; line-height:26px;}
 	
-	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {width:290px;}
+	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4, .top_slider .slide4 .flex_caption1 .title4  {width:290px;}
 	
 	#carousel {display:none;}
 	
