@@ -25,7 +25,7 @@
 	<link href="css/vendor/remixicon/remixicon.css" rel="stylesheet">
 	<link href="css/vendor/venobox/venobox.css" rel="stylesheet">
 	<link href="css/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-	<link href="css/vendor/aos/aos.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
     
 	<!-- FONTS -->
@@ -60,9 +60,11 @@
 	  <script src="css/vendor/venobox/venobox.min.js"></script>
 	  <!-- <script src="css/vendor/owl.carousel/owl.carousel.min.js"></script> -->
 	  <script src="css/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-	  <script src="css/vendor/aos/aos.js"></script>
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	  <script src="js/main.js"></script>
 	  <script src="js/app.js"></script>
+
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 	<script>
 		
 		//PrettyPhoto
@@ -325,172 +327,84 @@ jQuery(function () {
 		
 		
 		<!-- PROJECTS -->
-		<section id="projects" class="padbot20">
+		<section id="projects">
 		
 			<!-- CONTAINER -->
 			<div class="container">
 				<h2><b>Featured</b> Works</h2>
 			</div><!-- //CONTAINER -->
 			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					<!-- work1 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/1.jpg" alt="" />
-								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html">TPI Composites</a>
-									<span>17 December, 2021</span>
+			<div class="container">
+				<div class="row">
+					<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+						<!-- PROJECTS SLIDER -->
+						<div class="owl-demo owl-carousel projects_slider">
+							
+							<!-- work1 -->
+							<div class="item">
+								<div class="work_item">
+									<div class="work_img">
+										<img src="images/works/1.jpg" alt="" />
+										<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+									</div>
+									<div class="work_description">
+										<div class="work_descr_cont">
+											<a href="portfolio-post.html">TPI Composites</a>
+											<span>17 December, 2021</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</div><!-- //work1 -->
-					
-					<!-- work2 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/2.jpg" alt="" />
-								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Jayaraman balaji Agro & Gold</a>
-									<span>17 March, 2021</span>
+							</div><!-- //work1 -->
+							
+							<!-- work2 -->
+							<div class="item">
+								<div class="work_item">
+									<div class="work_img">
+										<img src="images/works/2.jpg" alt="" />
+										<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
+									</div>
+									<div class="work_description">
+										<div class="work_descr_cont">
+											<a href="portfolio-post.html" >Jayaraman balaji Agro & Gold</a>
+											<span>17 March, 2021</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</div><!-- //work2 -->
-					
-					<!-- work3 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/3.jpg" alt="" />
-								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ganesh Groceries</a>
-									<span>10 December, 2020</span>
+							</div><!-- //work2 -->
+							
+							<!-- work3 -->
+							<div class="item">
+								<div class="work_item">
+									<div class="work_img">
+										<img src="images/works/3.jpg" alt="" />
+										<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
+									</div>
+									<div class="work_description">
+										<div class="work_descr_cont">
+											<a href="portfolio-post.html" >Ganesh Groceries</a>
+											<span>10 December, 2020</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</div><!-- //work3 -->
-					
-					<!-- work4 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/4.jpg" alt="" />
-								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work4 -->
-					
-					<!-- work5 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/5.jpg" alt="" />
-								<a class="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work5 -->
-					
-					<!-- work6 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/6.jpg" alt="" />
-								<a class="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work6 -->
-					
-					<!-- work7 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/7.jpg" alt="" />
-								<a class="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work7 -->
-				</div><!-- //PROJECTS SLIDER -->
-			</div>
+							</div><!-- //work3 -->
+							
+						
+						</div><!-- //PROJECTS SLIDER -->
+					</div>
+				</div>
+			</div>	
+		
 
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-			
-				<!-- CONTAINER -->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/1.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/2.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/3.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/4.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/5.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/6.jpg" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div>
-			<!--OUR CLIENTS -->
+					<!--OUR CLIENTS -->
 		</section><!-- //PROJECTS -->
 		
 
 		<!--Videos-->
-		<section class="padbot20">
+		<section class="services">
 			<div class="container" data-aos="fade-up">
 	  
-			  <div class="services">
-				<h2>Video Courses</h2>
-				<p>Check our Videos</p>
+			  <div class="container">
+				<h2>Check our <b>Videos</b> </h2>
 			  </div>
 	  
 			  <div class="row">
@@ -573,7 +487,7 @@ jQuery(function () {
 		<!--Videos-->
 		
 		<!-- TEAM -->
-		<section id="team">
+		<section id="team" class="padbot20">
 		
 			<!-- CONTAINER -->
 			<div class="container">
@@ -599,8 +513,7 @@ jQuery(function () {
 									</div>
 								</div>
 								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://www.linkedin.com/in/anbumani-m-09886984/" ><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div><!-- crewman1 -->
@@ -618,295 +531,94 @@ jQuery(function () {
 									</div>
 								</div>
 								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
+									<a href="https://www.linkedin.com/in/keshav-nandhan-s/" ><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div><!-- crewman1 -->
 						
-						<!-- crewman3 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/3.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Sathish</p>
-										<span>Director</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman3 -->
 						
-						<!-- crewman4 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/4.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Indhu</p>
-										<span>HR</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman4 -->
-						
-						<!-- crewman5 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/5.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Ashwini</p>
-										<span>Quality Manager</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman5 -->
-						
-						<!-- crewman6 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/6.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Kamal</p>
-										<span>Designer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman6 -->
-						
-						<!-- crewman7 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/7.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Joe Mades</p>
-										<span>Developer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman7 -->
-						
-						<!-- crewman8 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/8.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Julia Anderson</p>
-										<span>Developer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman8 -->
 					</div><!-- TEAM SLIDER -->
 				</div><!-- //ROW -->
 			</div><!-- //CONTAINER -->
 		</section><!-- //TEAM -->
 		
 		
-		<!-- NEWS -->
-		<section id="news">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Clients</b> say about us</h2>
-				
-				<!-- TESTIMONIALS -->
-				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TESTIMONIALS SLIDER -->
-					<div class="owl-demo owl-carousel testim_slider">
-						
-						<!-- TESTIMONIAL1 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL1 -->
-						
-						<!-- TESTIMONIAL2 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL2 -->
-						
-						<!-- TESTIMONIAL3 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL3 -->
-					</div><!-- TESTIMONIALS SLIDER -->
-				</div><!-- //TESTIMONIALS -->
-				
-				<!-- RECENT POSTS -->
-				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/1.jpg" alt="" />
-								<a class="link" href="blog-post.html" ></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Inteligent Transitions In UX Design</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Photography</a> |</li>
-									<li><a href="javascript:void(0);" >10 Comments</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/2.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Recent trends in storytelling</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Web Design</a> |</li>
-									<li><a href="javascript:void(0);" >No comment</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/3.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Supernatural FX Showreel</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Creative</a> |</li>
-									<li><a href="javascript:void(0);" >3 Comments</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div><!-- RECENT POSTS -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //NEWS -->
+		<!-- CONTACTS -->
+	<section id="contacts" class="padbot20 contact">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp" data-aos="fade-up">
+  
+		  <div class="section-title services_block">
+			<p>Contact Us</p>
+		  </div>
+  
+		  <div class="row">
+  
+			<div class="col-lg-6">
+  
+			  <div class="row">
+				<div class="col-md-12">
+				  <div class="info-box">
+					<i class="bx bx-map"></i>
+					<h3>Our Address</h3>
+					<p>Pallikaranai, Chennai, TN 600100</p>
+				  </div>
+				</div>
+				<div class="col-md-6">
+				  <div class="info-box mt-4">
+					<i class="bx bx-envelope"></i>
+					<h3>Email Us</h3>
+					<p>keshavnandhan94@gmail.com<br>keshavnandhans@gmail.com</p>
+				  </div>
+				</div>
+				<div class="col-md-6">
+				  <div class="info-box mt-4">
+					<i class="bx bx-phone-call"></i>
+					<h3>Call Us</h3>
+					<p>+91 82484 96391 <br>+91 97915 91592</p>
+				  </div>
+				</div>
+			  </div>
+  
+			</div>
+  
+			<div class="col-lg-6">
+			  <form id="contact-form" action="contact.php" method="post" role="form" class="php-email-form" data-recaptcha-site-key="6LcxDIEdAAAAAGh7RQvvTylarcNpIy72NXQ5BMgJ">
+				<div class="row">
+				  <div class="col-md-6 form-group">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+					<div class="validate"></div>
+				  </div>
+				  <div class="col-md-6 form-group mt-3 mt-md-0">
+					<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+					<div class="validate"></div>
+				  </div>
+				</div>
+				<div class="form-group mt-3">
+				  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+				  <div class="validate"></div>
+				</div>
+				<div class="form-group mt-3">
+				  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+				  <div class="validate"></div>
+				</div>
+				<div class="mb-3">
+				  <div class="loading">Loading</div>
+				  <div class="error-message"></div>
+				  <div class="sent-message">Your message has been sent. Thank you!</div>
+				</div>
+				<div class="text-center"><button type="submit">Send Message</button></div>
+			  </form>
+			</div>
+  
+		  </div>
+  
+		</div>
+  
+</section><!-- //CONTACTS -->
+
+
 	</div><!-- //PAGE -->
 	
-	<!-- CONTACTS -->
-	<section id="contacts" class="contact section-bg">
-			<div class="container" data-aos="fade-up">
-	  
-			  <div class="section-title">
-				<h2>Contact</h2>
-				<p>Contact Us</p>
-			  </div>
-	  
-			  <div class="row">
-	  
-				<div class="col-lg-6">
-	  
-				  <div class="row">
-					<div class="col-md-12">
-					  <div class="info-box">
-						<i class="bx bx-map"></i>
-						<h3>Our Address</h3>
-						<p>Pallikaranai, Chennai, TN 600100</p>
-					  </div>
-					</div>
-					<div class="col-md-6">
-					  <div class="info-box mt-4">
-						<i class="bx bx-envelope"></i>
-						<h3>Email Us</h3>
-						<p>keshavnandhan94@gmail.com<br>keshavnandhans@gmail.com</p>
-					  </div>
-					</div>
-					<div class="col-md-6">
-					  <div class="info-box mt-4">
-						<i class="bx bx-phone-call"></i>
-						<h3>Call Us</h3>
-						<p>+91 82484 96391 <br>+91 97915 91592</p>
-					  </div>
-					</div>
-				  </div>
-	  
-				</div>
-	  
-				<div class="col-lg-6">
-				  <form action="contact.php" method="post" role="form" class="php-email-form" data-recaptcha-site-key="6LcxDIEdAAAAAGh7RQvvTylarcNpIy72NXQ5BMgJ">
-					<div class="row">
-					  <div class="col-md-6 form-group">
-						<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-						<div class="validate"></div>
-					  </div>
-					  <div class="col-md-6 form-group mt-3 mt-md-0">
-						<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-						<div class="validate"></div>
-					  </div>
-					</div>
-					<div class="form-group mt-3">
-					  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-					  <div class="validate"></div>
-					</div>
-					<div class="form-group mt-3">
-					  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-					  <div class="validate"></div>
-					</div>
-					<div class="mb-3">
-					  <div class="loading">Loading</div>
-					  <div class="error-message"></div>
-					  <div class="sent-message">Your message has been sent. Thank you!</div>
-					</div>
-					<div class="text-center"><button type="submit">Send Message</button></div>
-				  </form>
-				</div>
-	  
-			  </div>
-	  
-			</div>
-	  
-	</section><!-- //CONTACTS -->
 	
 
 </div>
@@ -929,11 +641,7 @@ jQuery(function () {
 				<strong>Email:</strong> keshavnandhan94@gmail.com<br>
 			  </p>
 			  <div class="social-links mt-3">
-				<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-				<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-				<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-				<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-				<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+				<a href="https://www.facebook.com/creativeappdevelopers" class="facebook"><i class="bx bxl-facebook"></i></a>
 			  </div>
 			</div>
 		  </div>
@@ -961,16 +669,12 @@ jQuery(function () {
 		  </div>
 
 		  <div class="col-lg-4 col-md-6 footer-newsletter">
-			<h4>Our Newsletter</h4>
-			<p>Stay tuned for new Tutorials</p>
-			<form action="" method="post">
-			  <input type="email" name="email"><input type="submit" value="Subscribe">
-			</form>
+			
 
 			<!-- MAP -->
 	<div id="map" style="padding-top: 15px;">
 		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
-		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
+		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=chennai&amp;sll=12.939562340393403%2C80.21202400885764&amp;sspn=0.010033%2C0.013733&amp;ie=UTF8&amp;hq=&amp;hnear=Pallikaranai,+Chennai&amp;ll=13.061482000000009%2C80.281928&amp;spn=0.010033%2C0.013733&amp;z=16&amp;output=embed" ></iframe>
 	</div><!-- //MAP -->
 
 		  </div>
