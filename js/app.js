@@ -37,10 +37,10 @@ myFunction = function() {
         emailjs.send('service_gwjg8cu','template_60a89ne', templateParams, 'user_5xiy2uGpLjvEgbmCf37ms')
             .then(function() {
                 console.log('SUCCESS!');
-                document.getElementById("contact").reset();
+                document.getElementById("contact-form").reset();
             }, function(error) {
                 console.log('FAILED...', error);
-                document.getElementById("contact").reset();
+                document.getElementById("contact-form").reset();
             });
 }
 
