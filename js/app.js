@@ -34,7 +34,7 @@ myFunction = function() {
             message:document.getElementById("form_message").value
         };
         // generate a five digit number for the contact_number variable
-        emailjs.sendForm('service_gwjg8cu','template_60a89ne', templateParams, 'user_5xiy2uGpLjvEgbmCf37ms')
+        emailjs.send('service_gwjg8cu','template_60a89ne', templateParams, 'user_5xiy2uGpLjvEgbmCf37ms')
             .then(function() {
                 console.log('SUCCESS!');
                 document.getElementById("contact").reset();
